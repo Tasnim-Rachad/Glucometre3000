@@ -1,0 +1,30 @@
+Prjt Arduino - Glucomètre 3000
+
+Composantes:
+
+# RBG LED
+# Buzzer passif
+# LCD
+# Manette joystick
+
+
+LCD connections
+
+- VSS GND
+- VDD 5V
+- V0 pot
+- RS 13
+- RW GND
+- E 2
+- D4 4
+- D5 5
+- D6 6
+- D7 7
+- A GND
+- K 5V
+
+AJOUTE:
+- map() pour le niveau de glucose et simuler une échelle
+- afficher la mesure du glucose sur le LCD
+- Serial.print 
+- Serial plotter
